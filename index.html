@@ -1,0 +1,155 @@
+<!--
+  *p 
+ 
+  If you do not understand this acronym, see the project documentation.
+
+      ********         *************
+    ************      ****       ****
+    ***     ****      ***         ***
+    ***     ****      ***
+    ***   ***         ***          PEDRO CAMPOS
+    *** ****          ***         
+    ***               *****      ****
+    ***                *************
+
+  *************************** *************************
+
+      Hey There!, I am Pedro Campos
+      my github 
+      >>> https://github.com/pedrovcampos/PedroCampos  <<<
+
+  *************************** *************************
+  
+  *p 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/buttons.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <header class="menu-left">
+      <div class="acontainer">
+        <div class="container-menu">
+          <div class="logo">
+            <h1>Rierr</h1>
+            <span>*Greni</span>
+          </div>
+          <div class="steps-menu">
+            <ul id="progress">
+              <li>
+                <a href=""><span>1</span> Introduction</a>
+              </li>
+              <li>
+                <a href=""><span>2</span>Personal data</a>
+              </li>
+              <li>
+                <a href=""><span>3</span> Contacts</a>
+              </li>
+              <li>
+                <a href=""><span>4</span> Documents</a>
+              </li>
+              <li>
+                <a href=""><span>5</span> Work data</a>
+              </li>
+              <li>
+                <a href=""><span>6</span> Aditional data</a>
+              </li>
+            </ul>
+          </div>
+          <div class="user">
+            <img
+              src="https://scontent.fopo5-1.fna.fbcdn.net/v/t39.30808-6/298464122_5672634329435546_8311974335465123156_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFzelH1RGwl7t5LKSpCeoc1MCi64PQ7uzkwKLrg9Du7OXuv4sKCEsiK6ddcVO5ZifWgc8MhcsENWE_o-35KJq3w&_nc_ohc=JRX445QLGbUAX_17a8V&_nc_ht=scontent.fopo5-1.fna&oh=00_AfAljXctHMxd-IE3-zqcRgE_AILaPXSx4w-wGac4D4NJNQ&oe=64B495B5"
+              alt="Pedro Campos profile picture"
+            />
+
+            <h3>
+              <a
+                href="https://github.com/pedrovcampos/PedroCampos"
+                target="_blank"
+                >Pedro C.</a
+              >
+            </h3>
+
+            <p class="logout"><a href="#">Logout</a></p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="s-hero">
+      <div class="top-news">
+        <div class="days">
+          <h3>10 days left</h3>
+          <p class="submit">To submit the form.</p>
+        </div>
+        <div class="help">
+          <h3><a href=""> Need help? </a></h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <form action="" id="formulario">
+          <fieldset>
+            <h2>Personal Data</h2>
+            <h4>Fields with <span>*</span> are mandatory</h4>
+            <input class="full-name" type="text" placeholder="Full name" />
+            <h3>Profile picture</h3>
+            <input class="f-folder" type="file" />
+            <div class="second">
+              <input class="d-date" type="date" placeholder="* Birthdate" />
+              <select class="country-opt" id="">
+                <option value="null">
+                  <div class="spc">*</div>
+                  Country
+                </option>
+                <option value="br">Brazil</option>
+                <option value="pt">Portugal</option>
+                <option value="fr">France</option>
+                <option value="en">English</option>
+              </select>
+            </div>
+            <input class="full-name" type="text" placeholder="Mother's name" />
+            <div class="second">
+              <div class="country-opt">
+                <select class="gender" id="">
+                  <option value="null">Gender</option>
+                  <option value="man">Man</option>
+                  <option value="wo">Woman</option>
+                </select>
+              </div>
+              <div class="country-opt">
+                <select class="gender" id="city">
+                  <option value="null">City</option>
+                  <option value="rj">Rio de Janeiro</option>
+                  <option value="es">Espirito Santo</option>
+                </select>
+              </div>
+            </div>
+            <div class="bts">
+              <div class="button-back"><a href="">BACK</a></div>
+              <button type="submit" name="next" class="next acao" value="next01">NEXT</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

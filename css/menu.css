@@ -1,0 +1,84 @@
+.menu-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background: var(--bg-white);
+  width: 276px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 37px 15px;
+  border: 2px solid rgba(255, 255, 255, 0.154);
+  border-radius: 0px 18px 18px 0px;
+  box-shadow:
+  0 0 0 2px rgb(255, 255, 255),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  display: flex;
+  gap: 0.8rem;
+  text-align: center;
+  padding-left: 2.4rem;
+  margin-bottom: 8rem;
+}
+
+.logo h1 {
+  text-align: center;
+  color: var(--txt-logo-rierr);
+  font-size: 2.3rem;
+  padding-right: 1rem;
+  border-right: 2px solid rgba(128, 128, 128, 0.154);
+}
+
+.logo span {
+  font-size: 2.3rem;
+  color: var(--standard-green);
+  font-weight: bold;
+}
+
+.steps-menu ul li a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  color: var(--txt-logo-rierr);
+}
+
+.steps-menu ul li span {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  border: 3px solid var(--standard-blue);
+  border-radius: 100%;
+}
+
+.user {
+  border-top: 2px solid rgba(128, 128, 128, 0.154);
+  padding-top: 10px;
+  margin-top: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user img {
+  width: 35px;
+  border-radius: 100%;
+}
+
+.user h3 a{
+  color: var( --txt-logo-rierr);
+  padding-left: 1.5rem;
+} 
+
+.logout a {
+  padding-left: 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--standard-blue);
+}

@@ -1,0 +1,53 @@
+button,
+.button-back a {
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+button {
+  line-height: 5.2rem;
+  height: 5.2rem;
+  width: 11.8rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  color: var(--txt-primary-white);
+  background: var(--button-next);
+  justify-content: space-around;
+}
+
+button:hover,
+.button-back:hover {
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background: var(--button-next-hover);
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+button {
+  padding: 1rem;
+}
+
+button img {
+  max-width: 100%;
+  width: 2.4rem;
+}
+
+.button-back a {
+  justify-content: center;
+  width: 12rem;
+  height: 4.7rem;
+  border: 2px solid var(--button-next);
+  background: none;
+  color: var(--button-next);
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.button-back:hover {
+  background: rgba(137, 120, 222, 0.083);
+}

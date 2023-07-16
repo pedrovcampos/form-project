@@ -1,0 +1,230 @@
+body {
+   background: url("https://images.pexels.com/photos/10822494/pexels-photo-10822494.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load")
+    no-repeat; 
+  background-size: 100%;
+}
+
+.s-hero {
+  width: 100vh;
+  max-width: 100%;
+  position: absolute;
+  left: 358px;
+  margin: 0 auto;
+}
+
+.top-news {
+  margin-top: 2.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  margin-bottom: 1.2rem;
+}
+
+.days {
+  display: block;
+}
+
+.days h3 {
+  color: rgba(26, 41, 69, 0.653);
+  margin-bottom: 1rem;
+}
+
+.submit {
+  color: var(--txt-primary-white);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.help h3 a {
+  color: var(--button-next);
+  font-weight: bold;
+}
+
+.content {
+  max-width: 100%;
+  position: absolute;
+  left: 35.8rem;
+  margin: 0 auto;
+  top: 10.3rem;
+  width: 104rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.content h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.content .container {
+  max-width: 100%;
+  padding: 4rem;
+  height: 65rem;
+}
+
+.content .container h4 {
+  color: var(--txt-primary-white);
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+.content .container span {
+  color: var(--alert-fomr);
+}
+
+.full-name,
+.country-opt,
+.d-date {
+  background: transparent;
+}
+
+.full-name {
+  color: var(--button-next);
+  height: 4.6rem;
+  border-radius: 8px;
+  width: 100%;
+  border: 2px solid var(--staps);
+  padding: 1.5rem;
+  transition: all 0.3s;
+  margin-bottom: 2rem;
+}
+
+.full-name::placeholder {
+  color: var(--txt-logo-rierr);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.full-name:active,
+.d-date:active,
+.country-opt:active {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0),
+    0.3em 0.3em 1em rgba(51, 126, 255, 0.3);
+}
+
+form h3 {
+  color: var(--txt-logo-rierr);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.f-folder {
+  display: flex;
+  height: 12.2rem;
+  line-height: 12.2rem;
+  padding-left: 34%;
+  width: 100%;
+  border: 2px dashed rgba(161, 165, 179, 0.228);
+  border-radius: 8px;
+}
+
+.f-folder::placeholder {
+  padding: 50px;
+  display: flex;
+  text-align: center;
+  line-height: 12.2rem;
+}
+
+.d-date,
+.gender {
+  padding: 1rem;
+  background: transparent;
+}
+
+select {
+  margin-bottom: 2rem;
+}
+
+.d-date,
+.country-opt {
+  color: var(--txt-logo-rierr);
+  height: 4.6rem;
+  border-radius: 8px;
+  width: 100%;
+  border: 2px solid var(--staps);
+  transition: all 0.3s;
+}
+
+.second {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+
+.spc {
+  color: var(--alert-fomr);
+}
+
+.gender {
+  width: 100%;
+}
+
+.bts{
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* 
+
+          <fieldset>
+            <h2>Personal Data</h2>
+            <h4>Fields with <span>*</span> are mandatory</h4>
+            <input class="full-name" type="text" placeholder="Full name" />
+            <h3>Profile picture</h3>
+            <input class="f-folder" type="file" />
+            <div class="second">
+              <input class="d-date" type="date" placeholder="* Birthdate" />
+              <select class="country-opt" id="">
+                <option value="null">
+                  <div class="spc">*</div>
+                  Country
+                </option>
+                <option value="br">Brazil</option>
+                <option value="pt">Portugal</option>
+                <option value="fr">France</option>
+                <option value="en">English</option>
+              </select>
+            </div>
+            <input class="full-name" type="text" placeholder="Mother's name" />
+            <div class="second">
+              <div class="country-opt">
+                <select class="gender" id="">
+                  <option value="null">Gender</option>
+                  <option value="man">Man</option>
+                  <option value="wo">Woman</option>
+                </select>
+              </div>
+              <div class="country-opt">
+                <select class="gender" id="city">
+                  <option value="null">City</option>
+                  <option value="rj">Rio de Janeiro</option>
+                  <option value="es">Espirito Santo</option>
+                </select>
+              </div>
+            </div>
+            <div class="bts">
+              <div class="button-back"><a href="">BACK</a></div>
+              <button type="submit" name="next" class="next acao" value="next01">NEXT</button>
+            </div>
+          </fieldset>
+
+
+
+
+
+*/ 
